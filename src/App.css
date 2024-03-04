@@ -85,10 +85,20 @@ body {
 
 }
 
-.luzVerdeSelected {
+/* .luzVerdeSelected {
+  box-shadow: 0 0 50px 15px green;
+} */
+
+.glowRed {
+  box-shadow: 0 0 50px 15px red;
+}
+
+.glowYellow {
+  box-shadow: 0 0 50px 15px yellow;
+}
+
+.glowGreen {
   box-shadow: 0 0 50px 15px green;
 }
 
-.glow {
-  box-shadow: 0 0 50px 15px #fff; /* Cambia el color de la sombra según sea necesario */
-}
+/* Cambia el color de la sombra según sea necesario */
