@@ -1,0 +1,94 @@
+#app {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+#container {
+
+  position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  width: 180px;
+  padding: 1.5rem;
+  margin-top: 50px;
+  margin-left: 800px;
+  background: black;
+  color: white;
+  border-radius: 15px;
+}
+
+#trafficTop {
+
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 10px;
+  padding: 1.5rem;
+  margin-top: -400px;
+  background: black;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+body {
+  background-color: white;
+}
+
+.luzRoja {
+  position: absolute;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-top: -200px;
+  border-radius: 100%;
+  /* box-shadow: 0 0 50px 15px red; */
+  /* cursor: pointer; */
+
+
+}
+
+.luzAmarilla {
+  position: absolute;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  border-radius: 100%;
+  /* box-shadow: 0 0 50px 15px yellow; */
+
+}
+
+.luzVerde {
+  position: absolute;
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  margin-top: 300px;
+  border-radius: 100%;
+  /* box-shadow: 0 0 50px 15px green; */
+
+
+}
+
+.luzVerdeSelected {
+  box-shadow: 0 0 50px 15px green;
+}
+
+.glow {
+  box-shadow: 0 0 50px 15px #fff; /* Cambia el color de la sombra según sea necesario */
+}
