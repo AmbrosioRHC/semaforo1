@@ -103,3 +103,6 @@ body {
 }
 
 /* Cambia el color de la sombra según sea necesario */
+.prendeTodo {
+  box-shadow: 0 0 50px 15px white;
+}
